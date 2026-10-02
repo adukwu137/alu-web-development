@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 15px;
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
+header, footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 15px 20px;
+}
+
+header a, footer a {
+    color: #ffffff;
+}
+
+article {
+    padding: 20px;
+}
+
+aside {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 1px solid #e0e0e0;
+}
